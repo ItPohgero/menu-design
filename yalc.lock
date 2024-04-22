@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "ui-lava": {
+      "signature": "d391a6b4a37ccb27edbe88136f213e10",
+      "file": true
+    }
+  }
+}
