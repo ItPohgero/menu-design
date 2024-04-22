@@ -1,5 +1,5 @@
 ---
-to: 'src/app/[lang]/<%= path %>/locales/dictionaries.ts'
+to: 'src/app/(core)/<%= path %>/locales/dictionaries.ts'
 ---
 import 'server-only'
 

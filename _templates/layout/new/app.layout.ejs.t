@@ -1,5 +1,5 @@
 ---
-to: 'src/app/[lang]/<%= path %>/layout.tsx'
+to: 'src/app/(core)/<%= path %>/layout.tsx'
 ---
 
 import React, { PropsWithChildren } from 'react'

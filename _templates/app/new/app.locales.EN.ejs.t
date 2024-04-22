@@ -1,5 +1,5 @@
 ---
-to: 'src/app/[lang]/<%= path %>/locales/EN.json'
+to: 'src/app/(core)/<%= path %>/locales/EN.json'
 ---
 {
     "title": "Title"

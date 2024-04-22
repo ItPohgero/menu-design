@@ -1,7 +1,7 @@
 'use client'
 import React, {Fragment} from 'react';
 import HooksLanding from '@/hooks/HooksLanding/Main'
-import { Dictionary } from '@/app/[lang]/landing/locales/dictionaries';
+import { Dictionary } from '@/app/(core)/landing/locales/dictionaries';
 
 interface Props {
   dict: Dictionary

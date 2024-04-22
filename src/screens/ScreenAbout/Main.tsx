@@ -1,7 +1,7 @@
 'use client'
 import React, {Fragment} from 'react';
 import HooksAbout from '@/hooks/HooksAbout/Main'
-import { Dictionary } from '@/app/[lang]/about/locales/dictionaries';
+import { Dictionary } from '@/app/(core)/about/locales/dictionaries';
 
 interface Props {
   dict: Dictionary

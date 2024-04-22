@@ -1,5 +1,5 @@
 ---
-to: 'src/app/[lang]/<%= path %>/page.tsx'
+to: 'src/app/(core)/<%= path %>/page.tsx'
 ---
 
 import { getDictionary } from './locales/dictionaries'
