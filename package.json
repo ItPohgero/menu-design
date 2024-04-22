@@ -12,10 +12,13 @@
     "gen:layout": "hygen layout new",
     "gen:shared": "hygen shared new",
     "format:check": "prettier . --check",
-    "format:fix": "prettier --write ."
+    "format:fix": "prettier --write .",
+    "push": "git add . && git commit -m \"up\" && git push"
   },
   "dependencies": {
+    "@ant-design/nextjs-registry": "^1.0.0",
     "@reduxjs/toolkit": "^2.2.1",
+    "antd": "^5.16.4",
     "axios": "^1.6.8",
     "firebase": "^10.9.0",
     "jwt-decode": "^4.0.0",
