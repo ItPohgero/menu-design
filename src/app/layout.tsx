@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import { ProviderReduxToolkit } from "@/providers/ProviderReduxToolkit";
 import { ProviderAntd } from "@/providers/ProviderAntd";
+import LayoutMain from "@/layouts/LayoutMain";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <ProviderReduxToolkit>
           <ProviderAntd>
-            {children}
+            <LayoutMain>
+              {children}
+            </LayoutMain>
           </ProviderAntd>
         </ProviderReduxToolkit>
       </body>

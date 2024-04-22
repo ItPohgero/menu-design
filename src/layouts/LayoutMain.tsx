@@ -2,6 +2,7 @@
 import { PropsWithChildren } from 'react'
 import NextTopLoader from 'nextjs-toploader'
 import { Toaster } from 'react-hot-toast'
+import LayoutCore from './LayoutCore'
 
 const LayoutMain = ({ children }: PropsWithChildren) => {
     return (
@@ -9,7 +10,9 @@ const LayoutMain = ({ children }: PropsWithChildren) => {
             <div>
                 <Toaster />
                 <NextTopLoader height={2} />
-                {children}
+                <LayoutCore>
+                    {children}
+                </LayoutCore>
             </div>
         </main>
     )
